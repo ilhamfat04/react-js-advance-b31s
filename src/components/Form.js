@@ -52,6 +52,14 @@ function Form() {
           />
         </div>
         {/* code here */}
+        <div className="form-group">
+          <label className="form-label" htmlFor="gender">Gender</label>
+          <select className="form-select" id="gender">
+            <option>Choose..</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
       </form>
     </div>
   )
