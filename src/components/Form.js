@@ -1,4 +1,5 @@
 // import React Bootstrap components here
+import { Form, Row, Col } from 'react-bootstrap'
 
 // import css modules
 import cssModules from "./Form.module.css";
@@ -28,7 +29,7 @@ const styles = {
 };
 
 
-function Form() {
+function FormComponent() {
   return (
     <div>
       <form style={styles.form}>
@@ -64,9 +65,19 @@ function Form() {
           </select>
         </div>
         {/* code here */}
+        <Form>
+          <Row>
+            <Col>
+              <Form.Control placeholder="First name" />
+            </Col>
+            <Col>
+              <Form.Control placeholder="Last name" />
+            </Col>
+          </Row>
+        </Form>
       </form>
     </div>
   )
 }
 
-export default Form
+export default FormComponent
