@@ -1,1 +1,21 @@
 /* style here */
+.inputGroup{
+    margin-top: 50px;
+}
+
+.label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.formInput{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
